@@ -19,6 +19,10 @@ def main():
             print(arithmetic.multiply(int(token[1]), int(token[2])))
         if token[0] == "/":
             print(arithmetic.divide(int(token[1]), int(token[2])))
+        if token[0] == "square":
+            print(arithmetic.square(int(token[1])))
+        if token[0] == "cube":
+            print(arithmetic.cube(int(token[1])))
         if token[0] == "power":
             print(arithmetic.power(int(token[1]), int(token[2])))
         if token[0] == "mod":
